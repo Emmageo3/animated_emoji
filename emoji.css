@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #131416;
+}
+#emoji{
+    font-size: 5em;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all 0.2s;
+}
+
+#emoji:hover{
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
